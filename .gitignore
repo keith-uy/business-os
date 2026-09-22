@@ -1,0 +1,28 @@
+# Secrets: never committed, at any depth (root, clients/<x>/, leads/<x>/)
+.env.local
+.env
+.env.*
+!.env.example
+
+# OS and editor cruft
+.DS_Store
+Thumbs.db
+
+# Dependencies, builds, caches
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+dist/
+
+# Disposable scratch
+active/.tmp/*
+!active/.tmp/.gitkeep
+
+# Automatic snapshots taken before every scripted write
+crm/.backups/
+pnl/.backups/
+
+# Nested repos with their own remotes (a client's website repo, for example).
+# Add one line per nested repo so this repo does not record a broken pointer:
+# /clients/acme/website/
