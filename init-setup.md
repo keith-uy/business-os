@@ -19,7 +19,7 @@ Replace every `{{PLACEHOLDER}}` in `CLAUDE.md` with the answers, then copy `CLAU
 
 Also replace `{{BUSINESS_NAME}}` in `README.md`. Do not touch the `_template` folders under `clients/` and `leads/`; their `{{COMPANY}}`, `{{SLUG}}` and `{{DATE}}` placeholders are filled by the CRM script when an engagement folder is created.
 
-If the folder is still called `business-os-template`, suggest renaming it to `<BusinessName>_OS`, and offer to run the rename.
+If the folder is still called `business-os`, suggest renaming it to `<BusinessName>_OS`, and offer to run the rename.
 
 ## 3. Secrets
 
